@@ -1,0 +1,47 @@
+* {
+  text-align: center;
+}
+
+body {
+  /* background-image: url(./images/forrest.svg); */
+  background-image: url(./images/forrest1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* h1 {
+  margin-bottom: 5rem;
+} */
+img {
+  /* width: 30%; */
+  /* border: 1px solid #000; */
+  height: 30vh;
+}
+
+svg {
+  width: 50%;
+  /* border: 2px solid yellow; */
+  padding: 10px;
+  /* outline: 2px solid #007bff; */
+}
+
+.red-border {
+  /* Syntax: drop-shadow(X-offset Y-offset Blur-radius Color) */
+  filter: drop-shadow(2px 0px 2px #ff0000) drop-shadow(-2px 0px 2px #ff0000)
+    drop-shadow(0px 2px 2px #ff0000) drop-shadow(0px -2px 2px #ff0000);
+}
+
+.green-border {
+  filter: drop-shadow(2px 0px 2px green) drop-shadow(-2px 0px 2px green)
+    drop-shadow(0px 2px 2px green) drop-shadow(0px -2px 2px green);
+}
+
+.container {
+  height: 80vh;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
