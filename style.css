@@ -12,16 +12,8 @@ body {
   margin-bottom: 5rem;
 } */
 img {
-  /* width: 30%; */
-  /* border: 1px solid #000; */
-  height: 30vh;
-}
-
-svg {
-  width: 50%;
-  /* border: 2px solid yellow; */
-  padding: 10px;
-  /* outline: 2px solid #007bff; */
+  object-fit: cover;
+  height: 25vh;
 }
 
 .red-border {
@@ -36,7 +28,7 @@ svg {
 }
 
 .container {
-  height: 80vh;
+  height: 77vh;
 }
 
 canvas {
