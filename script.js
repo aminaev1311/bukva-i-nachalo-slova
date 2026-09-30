@@ -1,5 +1,5 @@
-import { sayText } from "./utils.js";
-import { animate, burst } from "./confetti.js";
+import { sayText } from "./scripts/utils.js";
+import { animate, burst } from "./scripts/confetti.js";
 
 const border = {
   fox: "red",
